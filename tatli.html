@@ -108,7 +108,7 @@
             methods: {
                 fetchTarifler() {
                     console.log('Fetching recipes from /tatli-tarifler');
-                    fetch('http://localhost:3000/tatli-tarifler')
+                    fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/tatli-tarifler')
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error(`HTTP error! status: ${response.status}`);

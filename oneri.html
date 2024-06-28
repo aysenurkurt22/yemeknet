@@ -108,7 +108,7 @@
             methods: {
                 fetchTarifler() {
                     console.log('Fetching recipes from /bugun-ne-pisirsem-tarifler');
-                    fetch('http://localhost:3000/bugun-ne-pisirsem-tarifler')
+                    fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/bugun-ne-pisirsem-tarifler')
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error(`HTTP error! status: ${response.status}`);

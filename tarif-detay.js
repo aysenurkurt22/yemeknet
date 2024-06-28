@@ -25,7 +25,7 @@ new Vue({
   },
   methods: {
     fetchTarifDetails(TarifId) {
-      fetch(`http://localhost:3000/tarif/${TarifId}`)
+      fetch(`https://yemeknet-site-348a48c219c7.herokuapp.com/tarif/${TarifId}`)
         .then(response => response.json())
         .then(data => {
           this.tarif = data;
@@ -40,7 +40,7 @@ new Vue({
 
     fetchComments(TarifId) {
       console.log(`Yorumlar istek gönderiliyor: tarifId = ${TarifId}`);
-      fetch(`http://localhost:3000/yorumlar/${TarifId}`)
+      fetch(`https://yemeknet-site-348a48c219c7.herokuapp.com/yorumlar/${TarifId}`)
         .then(response => {
           console.log('Yorumlar endpoint yanıtı:', response);
           if (!response.ok) {
@@ -67,7 +67,7 @@ new Vue({
       };
     
       console.log('Yorum ekleme isteği gönderiliyor:', commentData);
-      fetch('http://localhost:3000/yorum-ekle', {
+      fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/yorum-ekle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -104,7 +104,7 @@ new Vue({
    
 
     fetchTarifDetails(TarifId) {
-      fetch(`http://localhost:3000/tarif/${TarifId}`)
+      fetch(`https://yemeknet-site-348a48c219c7.herokuapp.com/tarif/${TarifId}`)
         .then(response => response.json())
         .then(data => {
           this.tarif = data;
@@ -118,7 +118,7 @@ new Vue({
   
     fetchComments(TarifId) {
       console.log(`Yorumlar istek gönderiliyor: tarifId = ${TarifId}`);
-      fetch(`http://localhost:3000/yorumlar/${TarifId}`)
+      fetch(`https://yemeknet-site-348a48c219c7.herokuapp.com/yorumlar/${TarifId}`)
         .then(response => {
           console.log('Yorumlar endpoint yanıtı:', response);
           if (!response.ok) {
@@ -134,7 +134,7 @@ new Vue({
     },
   
     fetchTarifDetails(TarifId) {
-      fetch(`http://localhost:3000/tarif/${TarifId}`)
+      fetch(`https://yemeknet-site-348a48c219c7.herokuapp.com/tarif/${TarifId}`)
         .then(response => response.json())
         .then(data => {
           this.tarif = data;
@@ -148,7 +148,7 @@ new Vue({
   
     fetchComments(TarifId) {
       console.log(`Yorumlar istek gönderiliyor: tarifId = ${TarifId}`);
-      fetch(`http://localhost:3000/yorumlar/${TarifId}`)
+      fetch(`https://yemeknet-site-348a48c219c7.herokuapp.com/yorumlar/${TarifId}`)
         .then(response => {
           console.log('Yorumlar endpoint yanıtı:', response);
           if (!response.ok) {
@@ -164,7 +164,7 @@ new Vue({
     },
   
     fetchRatingAverage(TarifId) {
-      fetch(`http://localhost:3000/puan-ortalama/${TarifId}`)
+      fetch(`https://yemeknet-site-348a48c219c7.herokuapp.com/puan-ortalama/${TarifId}`)
         .then(response => {
           console.log('Puan ortalaması endpoint yanıtı:', response);
           if (!response.ok) {
@@ -193,7 +193,7 @@ new Vue({
       };
   
       console.log('Puan ekleme isteği gönderiliyor:', ratingData);
-      fetch('http://localhost:3000/puan-ekle', {
+      fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/puan-ekle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -244,7 +244,7 @@ new Vue({
 
       console.log('Favori ekleme isteği:', { TarifId, KullaniciId, token });
 
-      fetch('http://localhost:3000/favori-ekle', {
+      fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/favori-ekle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

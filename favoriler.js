@@ -13,7 +13,7 @@ new Vue({
             return;
         }
 
-        fetch('http://localhost:3000/favorilerim', {
+        fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/favorilerim', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

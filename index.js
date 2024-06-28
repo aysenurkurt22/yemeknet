@@ -10,7 +10,7 @@ new Vue({
     },
     methods: {
       fetchTarifler() {
-        fetch('http://localhost:3000/tarifler')
+        fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/tarifler')
           .then(response => {
             if (!response.ok) {
               throw new Error(`HTTP error! status: ${response.status}`);
@@ -64,7 +64,7 @@ new Vue({
     },
     methods: {
       fetchTarifler() {
-        fetch('http://localhost:3000/sayfa2-tarifler')
+        fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/sayfa2-tarifler')
           .then(response => {
             if (!response.ok) {
               throw new Error(`HTTP error! status: ${response.status}`);
@@ -120,7 +120,7 @@ new Vue({
       methods: {
         fetchTarifler() {
           console.log('Tarifler API çağrısı yapılıyor...');
-          fetch('http://localhost:3000/tum-tarifler')
+          fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/tum-tarifler')
             .then(response => {
               console.log('API yanıtı alındı:', response);
               if (!response.ok) {
@@ -156,7 +156,7 @@ new Vue({
         const email = contactForm.querySelector('input[name="email"]').value;
         const mesaj = contactForm.querySelector('textarea[name="mesaj"]').value;
 
-        fetch('http://localhost:3000/iletisim', {
+        fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/iletisim', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

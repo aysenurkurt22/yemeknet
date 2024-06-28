@@ -62,7 +62,7 @@
             },
             methods: {
                 fetchUserRecipes() {
-                    fetch('http://localhost:3000/kullanici-tarifler', {
+                    fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/kullanici-tarifler', {
                         headers: {
                             'Authorization': `Bearer ${localStorage.getItem('token')}`
                         }
@@ -91,7 +91,7 @@
                 updateRecipe() {
                     const { TarifID, TarifAdi, TarifDetayi, Malzemeler, KategoriID } = this.editRecipeData;
                     console.log('Updating recipe with ID:', TarifID);
-                    fetch(`http://localhost:3000/tarifler/${TarifID}`, {
+                    fetch(`https://yemeknet-site-348a48c219c7.herokuapp.com/tarifler/${TarifID}`, {
                         method: 'PUT',
                         headers: {
                             'Content-Type': 'application/json',
@@ -120,7 +120,7 @@
                     });
                 },
                 deleteRecipe(tarifID) {
-                    fetch(`http://localhost:3000/tarifler/${tarifID}`, {
+                    fetch(`https://yemeknet-site-348a48c219c7.herokuapp.com/tarifler/${tarifID}`, {
                         method: 'DELETE',
                         headers: {
                             'Authorization': `Bearer ${localStorage.getItem('token')}`
