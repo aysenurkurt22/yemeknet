@@ -97,7 +97,7 @@
             methods: {
                 fetchTarifler() {
                     console.log('Fetching recipes from /ana-yemek-tarifler');
-                    fetch('http://localhost:3000/ana-yemek-tarifler')
+                    fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/ana-yemek-tarifler')
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error(`HTTP error! status: ${response.status}`);
