@@ -107,7 +107,7 @@
             methods: {
                 fetchTarifler() {
                     console.log('Fetching recipes from /corba-tarifler');
-                    fetch('http://localhost:3000/corba-tarifler')
+                    fetch('https://yemeknet-site-348a48c219c7.herokuapp.com/corba-tarifler')
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error(`HTTP error! status: ${response.status}`);
