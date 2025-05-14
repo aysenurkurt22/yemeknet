@@ -1,11 +1,51 @@
-﻿Yemek Tarifi Sitesi
+# 🍽️ YemekNet – Tarif Paylaşım ve Keşif Platformu  
+🍽️ YemekNet – Recipe Sharing & Discovery Platform
 
-**Proje Tanımı: Yemek tarifleri paylaşımı sağlayan bir internet sitesi.
+[▶️ Tanıtım Videosu / Demo Video](https://youtu.be/UB_Q_k4mGNg?si=brZL_XgJzrrEa2t-)
 
-Web sitem, kullanıcılara çeşitli yemek tariflerini bulabilecekleri ve paylaşabilecekleri bir platformdur. Genellikle tarifler kategorilere ayrılmıştır, böylece kullanıcılar istedikleri yemeği kolayca bulabilirler. Web sitesinde tarifler genellikle adım adım açıklamalar, malzeme listesi, fotoğraflar ve bazen video rehberlerle sunulur. Ayrıca kullanıcılar genellikle kendi tariflerini paylaşabilir ve diğer kullanıcıların yorumlarına erişebilirler. Tariflerin yanı sıra, sağlıklı beslenme ipuçları, mutfak teknikleri ve yemek pişirme hakkında bilgilendirici içerikler de bulunabilir.
+---
 
-**Proje Kategorisi: İçerik Sitesi
+## 🧾 Proje Tanımı / Project Description
 
-**Uygulama adresi(SİTE ADRESİ): https://yemeknet-site-348a48c219c7.herokuapp.com/
+**YemekNet**, kullanıcıların yemek tariflerini keşfedip paylaşabileceği interaktif bir içerik sitesidir. Tarifler kategori bazlı olarak sunulur ve adım adım açıklamalar, malzeme listeleri, görseller hatta video rehberlerle desteklenir. Ayrıca kullanıcılar kendi tariflerini ekleyebilir, yorum yapabilir ve diğer paylaşımları oylayabilir.
 
-**Site youtube linki: https://youtu.be/UB_Q_k4mGNg?si=brZL_XgJzrrEa2t-
+**YemekNet** is an interactive content platform where users can discover and share various recipes. Recipes are categorized and supported with step-by-step instructions, ingredient lists, photos, and sometimes video guides. Users can also contribute their own recipes, comment on others, and interact through likes or ratings.
+
+---
+
+## 🔧 Teknolojiler / Technologies Used
+
+- **Frontend:** HTML5, CSS3, JavaScript  
+- **Backend:** Node.js, Express.js  
+- **Veritabanı / Database:** MongoDB  
+- **Deploy:** Heroku  
+- **Video Demo:** YouTube
+
+---
+
+## 🌟 Ana Özellikler / Key Features
+
+| Özellik / Feature                     | Açıklama / Description                                                  |
+|--------------------------------------|-------------------------------------------------------------------------|
+| 📋 Tarif Paylaşımı                   | Kullanıcılar tarif ekleyebilir ve detaylı açıklamalar sunabilir         |
+| 🔍 Kategoriye Göre Tarama           | Yemek türlerine göre tarif arama                                        |
+| 💬 Yorum ve Etkileşim               | Tariflere yorum yapılabilir, sosyal etkileşim sağlanabilir              |
+| 📸 Görsel ve Video Desteği          | Tariflerde fotoğraf ve video içerikleri yer alabilir                    |
+| 📚 Sağlıklı Yaşam & Mutfak Bilgisi  | Bilgilendirici blog içerikleri                                          |
+
+---
+
+## 🚀 Proje Kategorisi / Project Type
+
+📂 **İçerik Sitesi / Content Website**
+
+---
+
+## 📌 Not
+
+Bu proje hem yeni başlayanlar hem de ileri seviye geliştiriciler için ideal bir tam yığın (full-stack) web uygulama örneğidir. İçerik üretimi, kullanıcı etkileşimi ve içerik filtreleme gibi temel bileşenleri bir araya getirir.
+
+---
+
+> 👩‍💻 Geliştirici / Developer: Ayşenur Kurt  , Behram Doğru , Kamil Görücü
+> 📨 İletişim ve katkılarınız için memnuniyet duyarım!
